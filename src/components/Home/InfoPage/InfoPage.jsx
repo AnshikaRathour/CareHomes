@@ -35,7 +35,7 @@ const InfoPage = () => {
                                     <div className="icon-box mt-4 mt-xl-0">
                                         <FaHeadset className="icon"/>
                                         <h4>Emegency Cases</h4>
-                                        <h6 className='text-secondary'>+91-7878764753</h6>
+                                        <h6 className='text-secondary'>+91-8700526484</h6>
                                         <p>In emergencies, trust Care Homes to swiftly connect you with medical help. Our intuitive emergency button ensures immediate assistance while seamlessly sharing your medical history with nearby hospitals for prompt care.</p>
                                     </div>
                                 </div>

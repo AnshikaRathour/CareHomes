@@ -12,7 +12,7 @@ const HeroSection = () => {
                     <small>One Stop solution to all your medical needs</small>
                 </div>
                 <div className="d-flex justify-content-start gap-2">
-                    <Link to={'/doctors'} className="btn-get-started scrollto">Get Started</Link>
+                    {/* <Link to={'/doctors'} className="btn-get-started scrollto">Get Started</Link> */}
                     <Link to={'/track-appointment'} className="btn-get-started scrollto">Track Appointment</Link>
                 </div>
             </div>

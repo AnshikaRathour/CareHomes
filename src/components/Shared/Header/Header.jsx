@@ -4,6 +4,7 @@ import useAuthCheck from '../../../redux/hooks/useAuthCheck';
 import TopHeader from '../TopHeader/TopHeader';
 import { Link, useNavigate } from 'react-router-dom';
 import img from '../../../images/logo.png';
+import i from '../../../images/Designer.png'
 import avatar from '../../../images/avatar.jpg';
 import { Button, message } from 'antd';
 import { loggedOut } from '../../../service/auth.service';
@@ -61,9 +62,11 @@ const Header = () => {
             </div>
             <header id="header" className={`fixed-top ${!show && "stickyHeader"}`}>
                 <div className="container d-flex align-items-center">
-
                     <Link to={'/'} className="logo me-auto">
-                        <img src={img} alt="" className="img-fluid" />
+                        <div className="container" style={{ display: 'flex', alignItems: 'center' }}>
+                            <img src={i} alt="" className="img-fluid" />
+                            <p style={{marginTop : 20}}>CareHomes</p>
+                        </div>
                     </Link>
                     <HeaderNav isLoggedIn={isLoggedIn} data={data}
                         avatar={avatar} content={content} open={open} setOpen={setOpen} />

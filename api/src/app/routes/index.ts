@@ -1,5 +1,4 @@
 import express from 'express';
-
 import { AuthRouter } from '../modules/auth/auth.route';
 import { PatientRouter } from '../modules/patient/patient.route';
 import { DoctorRouter } from '../modules/doctor/doctor.route';

@@ -63,15 +63,15 @@ const About = () => {
     return (
         <>
             <Header />
-            <SubHeader title="about us" subtitle="Lorem ipsum dolor sit amet consectetur adipisicing." />
+            <SubHeader title="about us" subtitle="Discover Our Story: Learn More About Our Mission and Values." />
             <div className="container" style={{ marginBottom: 100, marginTop: 100 }}>
                 <div className="row p-5">
                     <div className="col-lg-4">
                         <div className='section-title text-center'>
                             <h2 className='text-uppercase'>Our Doctors Acheivement</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet.</p>
+                            <p className='form-text m-0'></p>
                         </div>
-                        <p className='mt-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, quod laborum alias. Vitae dolorum, officia sit! Saepe ullam facere at, consequatur incidunt, quae esse, quis ut reprehenderit dignissimos, libero delectus.</p>
+                        <p className='mt-3'>"Explore Our Doctors' Achievements: Witness a Legacy of Excellence and Dedication. From groundbreaking research to prestigious awards, our physicians are at the forefront of healthcare innovation, ensuring exceptional care for every patient."</p>
                     </div>
 
                     <div className="col-lg-8">
@@ -92,7 +92,7 @@ const About = () => {
                     <div className="col-lg-4">
                         <div className='section-title text-center'>
                             <h2 className='text-uppercase'>Our Doctors Acheivement</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet.</p>
+                            <p className='form-text m-0'></p>
                         </div>
                     </div>
                     <div className="col-lg-8">
@@ -116,7 +116,7 @@ const About = () => {
                     <div className="col-lg-6">
                         <div className='mb-4 section-title text-center'>
                             <h2 className='text-uppercase'>Meet Our Specialist</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsum!</p>
+                            <p className='form-text m-0'></p>
                         </div>
                     </div>
                 </div>
@@ -132,7 +132,7 @@ const About = () => {
                     <div className="col-lg-6 offset-lg-6">
                         <div className='mb-4 section-title text-center'>
                             <h2 className='text-uppercase'>What Doctor's Say</h2>
-                            <p className='form-text m-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsum!</p>
+                            <p className='form-text m-0'>"Insights from Our Doctors: Hear Directly from the Experts. Discover their perspectives on patient care, medical advancements, and the importance of holistic well-being straight from the source."</p>
                         </div>
                     </div>
                 </div>
