@@ -12,7 +12,7 @@ const TopHeader = () => {
                 </div>
                 <div className="d-none d-lg-flex social-links align-items-center">
                     <a href="https://www.linkedin.com/in/anshika-rathour-3a3815259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target='_blank' rel="noreferrer" className="linkedin"><FaLinkedin /></a>
-                    <a href="https://github.com/Ujjalzaman" target='_blank' rel="noreferrer" className=""><FaGithubSquare /></a>
+                    <a href="https://github.com/balbirs22" target='_blank' rel="noreferrer" className=""><FaGithubSquare /></a>
                 </div>
             </div>
         </div>

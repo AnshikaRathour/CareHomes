@@ -11,7 +11,7 @@ const SelectApppointment = ({ selectedDate, handleDateChange, selectTime, setSel
     const pmTimeSlot = doctorTimeSlot.filter((item) => item.includes('PM'));
 
     const last5Days = Array.from({ length: 5 }, (_, index) =>
-        moment().clone().subtract(index, 'days')
+        moment().clone().add(index, 'days')
     )
 
     return (
@@ -36,7 +36,7 @@ const SelectApppointment = ({ selectedDate, handleDateChange, selectTime, setSel
                             </div>
                             <div className='d-flex gap-3'>
                                 <FaLink className='icon' />
-                                <p>Zoom Meeting</p>
+                                <p>Google Meet</p>
                             </div>
                             <div className='d-flex gap-3'>
                                 <FaCalendarAlt className='icon' />
